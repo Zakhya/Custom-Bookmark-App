@@ -2,6 +2,22 @@ html {
     background-color: black;
 }
 
+.p {
+    padding-right: 20%;
+    margin: 30px 30% 0px 10% ;
+    /*border: 3px solid hotpink;*/
+    text-align: center;
+    font-size: 1.35rem;
+    color: #9e9d9d;
+    background-color: black;
+    letter-spacing: .5rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+.p2 {
+    margin-top: 10px;
+}
 
 .title {
     color: #ffeb7e;
@@ -12,7 +28,7 @@ html {
     padding: 35px;
     font-weight: 600;
     background-color: #565656;
-    border: solid 2px darkslategray;
+    border: solid 5px #424141;
     border-top: none;
 }
 
@@ -25,24 +41,40 @@ html {
 .input {
     background-color: #f3e59a;
     border: darkslategray solid 1px;
-    margin: 40px 10%;
+    margin: 20px 10%;
     height: 30px;
     width: 60%;
 }
+.button {
+    font-size: 1rem;
+}
 .inputName {
-    margin-top: 50px;
+    margin-top: 15px;
 }
 .inputURL {
-    margin-top: 30px;
+    margin-top: 10px;
+}
+.URL {
+    margin-bottom: 0px;
 }
 
-.URL, .name {
+
+.button {
+    position: relative;
+    left: -10px;
+    top: -70px;
+    margin-bottom: 20px;
+    border: 5px solid black;
+    /*box-sizing: border-box;*/
     padding: 15px 25px;
     background-color: black;
     color: whitesmoke;
 }
-.URL:hover, .name:hover {
-    border: 3px solid #ffeb7e;
+.button:hover {
+    border: 5px solid #ffeb7e;
+    color: #fbe469;
+    background-color: #565656;
     padding: 15px 25px;
-    color: #ffeb7e;
+    /*box-sizing: border-box;*/
+
 }
