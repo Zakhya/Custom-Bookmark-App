@@ -1,20 +1,13 @@
 
-
-document.getElementById('myFrom').addEventListener('submit', saveBookmark);
-
-function saveBookmark(e){
-    console.log('It works');
-
-    let siteName = document.getElementById('siteName').value;
-    let siteURL = document.getElementById('siteURL').value;
-
-    var bookMark = {
-        name: siteName,
-        url: siteURL
-    }
+var inputName = document.getElementById('#inputForName')
+inputName.addEventListener('input', function (e) {
+    console.log(e.target.value)
+})
 
 
-    alert(bookMark)
+// array.forEach(function (toDo){
+//     const p = document.createElement('p')
+//     p.textContent = toDo.text
+//     document.querySelector('#todos').appendChild(p)
 
-    e.preventDefault()
-}
+
